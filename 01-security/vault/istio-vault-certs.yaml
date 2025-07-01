@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: cacerts
+  namespace: istio-system
+data:
+  ca-cert.pem: <BASE64_ENCODED_CA_CERT>
+  ca-key.pem: <BASE64_ENCODED_CA_KEY>
+  root-cert.pem: <BASE64_ENCODED_ROOT_CERT>
+  cert-chain.pem: <BASE64_ENCODED_CERT_CHAIN>
+type: Opaque

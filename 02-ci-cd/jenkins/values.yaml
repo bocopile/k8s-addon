@@ -1,0 +1,8 @@
+controller:
+  adminUser: admin
+  adminPassword: admin
+  installPlugins:
+    - kubernetes
+    - git
+    - workflow-aggregator
+    - blueocean

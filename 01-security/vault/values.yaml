@@ -1,0 +1,10 @@
+server:
+  dev:
+    enabled: false
+  dataStorage:
+    enabled: true
+  ha:
+    enabled: true
+    replicas: 3
+injector:
+  enabled: true
